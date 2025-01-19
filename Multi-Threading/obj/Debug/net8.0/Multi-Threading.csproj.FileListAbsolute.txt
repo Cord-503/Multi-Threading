@@ -12,3 +12,4 @@ C:\Users\HENRY\Desktop\Multi-Threading\Multi-Threading\obj\Debug\net8.0\refint\M
 C:\Users\HENRY\Desktop\Multi-Threading\Multi-Threading\obj\Debug\net8.0\Multi-Threading.pdb
 C:\Users\HENRY\Desktop\Multi-Threading\Multi-Threading\obj\Debug\net8.0\Multi-Threading.genruntimeconfig.cache
 C:\Users\HENRY\Desktop\Multi-Threading\Multi-Threading\obj\Debug\net8.0\ref\Multi-Threading.dll
+C:\Users\HENRY\Desktop\Multi-Threading\Multi-Threading\obj\Debug\net8.0\Multi-Threading.sourcelink.json

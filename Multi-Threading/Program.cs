@@ -37,6 +37,17 @@ namespace MultiThreading
 
                 int[] numbers = randomArray(10, 1, 100);
 
+                Console.WriteLine($"\nRun {runCount}: Generated random numbers:");
+                for (int i = 0; i < numbers.Length; i++)
+                {
+                    Console.Write(numbers[i]);
+                    if (i < numbers.Length - 1)
+                    {
+                        Console.Write(", ");
+                    }
+                }
+                Console.WriteLine();
+
                 Thread thread1 = new Thread(() => TotalSum(numbers));
                 Thread thread2 = new Thread(() => FindDivisibleBy(numbers, 6));
                 Thread thread3 = new Thread(() => StoreInFile(numbers, Path.Combine(folderPath, $"output_run_{runCount}.txt")));
